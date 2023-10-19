@@ -6,7 +6,7 @@ choco install vcredist140 python3 -y
 # choco install vcredist-all python3 -y
 
 # pywin32 required for virtualbox
-python3 -m pip install --upgrade pywin32
+python -m pip install --upgrade pywin32
 
 #
 choco install virtualbox multipass -y
