@@ -3,7 +3,6 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 refreshenv
 # install C++ stuff & python
 choco install vcredist140 python3 -y
-# choco install vcredist-all python3 -y
 
 # pywin32 required for virtualbox
 python -m pip install --upgrade pywin32
