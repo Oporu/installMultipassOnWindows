@@ -3,6 +3,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 
 # install C++ stuff
 
-choco install vcredist140 python3 -y
+# choco install vcredist140 python3 -y
+choco install vcredist-all python3 -y
 python3 -m pip install --upgrade pywin32
 choco install virtualbox multipass -y
