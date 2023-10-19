@@ -9,4 +9,5 @@ choco install vcredist140 python3 -y
 python -m pip install --upgrade pywin32
 
 #
-choco install virtualbox multipass -y
+choco install virtualbox -y
+choco install multipass -y --params="'/HyperVisor:VirtualBox'"
