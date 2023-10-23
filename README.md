@@ -11,3 +11,6 @@ to be tested:
 ```ps1
 irm 'https://raw.githubusercontent.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
 ```
+```ps1
+irm 'https://github.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
+```
