@@ -12,8 +12,8 @@ to be tested:
 irm 'https://raw.githubusercontent.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
 ```
 ```ps1
-irm 'https://github.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
+irm 'https://github.com/Oporu/installMultipassOnWindows/raw/main/installThenUpgrade.ps1' | iex
 ```
 ```ps1
-curl -L 'https://github.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
+curl -L 'https://github.com/Oporu/installMultipassOnWindows/raw/main/installThenUpgrade.ps1' | iex
 ```
