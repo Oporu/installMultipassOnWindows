@@ -3,3 +3,7 @@
 ```ps1
 [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Oporu/installMultipassOnWindows/main/install.ps1')
 ```
+### installThen apt upgrade
+```ps1
+[Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1')
+```
