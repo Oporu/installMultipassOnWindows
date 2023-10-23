@@ -7,3 +7,7 @@
 ```ps1
 [Net.ServicePointManager]::SecurityProtocol=[Net.SecurityProtocolType]::Tls12;iex(New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1')
 ```
+to be tested:
+```ps1
+irm 'https://raw.githubusercontent.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
+```
