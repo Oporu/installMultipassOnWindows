@@ -11,7 +11,7 @@ python -m pip install --upgrade pywin32
 choco install virtualbox -y
 choco install multipass -y --params="'/HyperVisor:VirtualBox'"
 
+Start-Sleep -Seconds 5
 # launches a new ubuntu server and get in shell of it
-timeout 5 > NUL
 multipass launch --name yee
 multipass shell yee
