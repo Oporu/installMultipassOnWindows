@@ -14,3 +14,6 @@ irm 'https://raw.githubusercontent.com/Oporu/installMultipassOnWindows/main/inst
 ```ps1
 irm 'https://github.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
 ```
+```ps1
+curl -L 'https://github.com/Oporu/installMultipassOnWindows/main/installThenUpgrade.ps1' | iex
+```
